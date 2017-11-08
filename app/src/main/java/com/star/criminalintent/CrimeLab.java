@@ -27,6 +27,7 @@ public class CrimeLab {
                 }
             }
         }
+
         return sCrimeLab;
     }
 

@@ -184,6 +184,7 @@ public class CrimeListFragment extends Fragment {
         @Override
         public int getItemViewType(int position) {
             Crime crime = mCrimes.get(position);
+
             return crime.isRequiresPolice() ? REQUIRES_POLICE : NOT_REQUIRES_POLICE;
         }
     }
